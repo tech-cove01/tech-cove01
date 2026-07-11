@@ -84,17 +84,17 @@ try:
     )
     with urllib.request.urlopen(quote_req, timeout=5) as response:
         quote_data = json.loads(response.read().decode("utf-8"))
-        selected_quote = f"{quote_data.get('hitokoto')}  —— 《{quote_data.get('from')} \u300b"
+        selected_quote = f"{quote_data.get('hitokoto')}  —— 《{quote_data.get('from')}》"
 except Exception:
     pass
 
-# 5. 精准写回 README.md（改用 100% 肉眼可见标签）
+# 5. 精准写回 README.md（改回主页完全隐形的 HTML 注释标签）
 if os.path.exists("README.md"):
     with open("README.md", "r", encoding="utf-8") as f:
         readme_text = f.read()
     
-    start_tag = "[QUOTE_START]"
-    end_tag = "[QUOTE_END]"
+    start_tag = "<!-- QUOTE_START -->"
+    end_tag = "<!-- QUOTE_END -->"
     
     if start_tag in readme_text and end_tag in readme_text:
         before = readme_text.split(start_tag)[0]
