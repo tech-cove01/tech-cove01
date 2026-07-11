@@ -21,10 +21,15 @@
 
 ---
 
+<!-- STATS_START -->
+### 📈 我的赛博活跃心电图
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true)
+
 ### 📊 我的 GitHub 战力看板
 ![](https://github-readme-stats.vercel.app/api?username=tech-cove01&show_icons=true&theme=ocean_dark)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=tech-cove01&layout=compact&theme=ocean_dark&hide=html,css)
 ![](https://github-readme-streak-stats.herokuapp.com/?user=tech-cove01&theme=ocean_dark)
+<!-- STATS_END -->
 ### 🛠️ 我的装备库
 
 <img src="https://img.shields.io/badge/Claude_Code-D97756?style=for-the-badge&logo=anthropic&logoColor=white" height="38" /> <img src="https://img.shields.io/badge/ChatGPT-00A67E?style=for-the-badge&logo=openai&logoColor=white" height="38" />  <img src="https://img.shields.io/badge/Deepseek-0052CC?style=for-the-badge&logo=robot&logoColor=white" height="38" />
