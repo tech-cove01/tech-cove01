@@ -1,7 +1,9 @@
 # 👋 哈喽，我是 tech！
-### 💬 每日幽默
-<!-- 幽灵笑话墙，每次刷新都会变 -->
-![](https://github-readme-jokes.vercel.app/api?theme=dark)
+---
+
+### 💬 每日一句
+> 💡 正在查看今日语录...
+---
 ### 📊 数据统计
 ![](./matrix.svg)
 ### 🚀 专注于摆烂
