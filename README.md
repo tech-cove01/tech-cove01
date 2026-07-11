@@ -1,16 +1,15 @@
-## Hi there 👋
+# 👋 哈喽，我是 tech-cove01 ！
 
-<!--
-**tech-cove01/tech-cove01** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🚀 专注于null
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🛠️ **我目前常用的技术栈**：null
+- 🔭 **正在进行的探索**：null
+- 💬 **你可以和我聊**：null
+- ⚡ **座右铭**：暂无
+
+---
+
+### 📊 我的 GitHub 战力看板
+
