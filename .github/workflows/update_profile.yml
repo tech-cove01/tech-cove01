@@ -1,0 +1,38 @@
+name: Update Profile Matrix and Chinese Joke
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # 每天凌晨自动刷新数据
+  workflow_dispatch: # 支持你在 Action 界面手动点击刷新
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Generate Real Matrix and Pick Joke
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python update_profile.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add matrix.svg README.md
+          git diff-index --quiet HEAD || git commit -m "chore: 实时同步真实数据矩阵与中文幽默"
+          git push
