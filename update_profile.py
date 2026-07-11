@@ -1,11 +1,13 @@
 import os
 import json
 import urllib.request
+import time
 
 # 1. 初始化环境变量
 token = os.environ.get("GITHUB_TOKEN")
 repo = os.environ.get("GITHUB_REPOSITORY")
 username = repo.split("/")[0]
+current_time = int(time.time())  # 动态时间戳破除缓存
 
 # 2. GraphQL 查询真实数据
 query = """
@@ -88,17 +90,37 @@ try:
 except Exception:
     pass
 
-# 5. 精准写回 README.md（改回主页完全隐形的 HTML 注释标签）
+# 5. 精准写回 README.md 
 if os.path.exists("README.md"):
     with open("README.md", "r", encoding="utf-8") as f:
         readme_text = f.read()
     
+    # 5.1 更新动态语录
     start_tag = "<!-- QUOTE_START -->"
     end_tag = "<!-- QUOTE_END -->"
-    
     if start_tag in readme_text and end_tag in readme_text:
         before = readme_text.split(start_tag)[0]
         after = readme_text.split(end_tag)[1]
-        new_readme = f"{before}{start_tag}\n\n> 💡 {selected_quote}\n\n{end_tag}{after}"
-        with open("README.md", "w", encoding="utf-8") as f:
-            f.write(new_readme)
+        readme_text = f"{before}{start_tag}\n\n> 💡 {selected_quote}\n\n{end_tag}{after}"
+    
+    # 5.2 动态写回带时间戳的看板，完美保留你的排版，破除全局缓存
+    stats_start = "<!-- STATS_START -->"
+    stats_end = "<!-- STATS_END -->"
+    if stats_start in readme_text and stats_end in readme_text:
+        before_stats = readme_text.split(stats_start)[0]
+        after_stats = readme_text.split(stats_end)[1]
+        
+        dynamic_stats_block = f"""{stats_start}
+### 📈 我的赛博活跃心电图
+![](https://github-readme-activity-graph.vercel.app/graph?username={username}&theme=react-dark&bg_color=0d1117&hide_border=true&t={current_time})
+
+### 📊 我的 GitHub 战力看板
+![](https://github-readme-stats.vercel.app/api?username={username}&show_icons=true&theme=ocean_dark&t={current_time})
+![](https://github-readme-stats.vercel.app/api/top-langs/?username={username}&layout=compact&theme=ocean_dark&hide=html,css&t={current_time})
+![](https://github-readme-streak-stats.herokuapp.com/?user={username}&theme=ocean_dark&t={current_time})
+{stats_end}"""
+        
+        readme_text = f"{before_stats}{dynamic_stats_block}{after_stats}"
+
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write(readme_text)
