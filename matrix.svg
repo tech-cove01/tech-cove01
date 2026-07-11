@@ -1,0 +1,47 @@
+<svg width="650" height="85" viewBox="0 0 650 85" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /* 基础底色方块（不参与动画，保持稳定半透明） */
+    .lvl-0 { fill: #161b22; rx: 2px; }
+    
+    /* 各颜色组的同步闪烁与隐现动画 */
+    .lvl-1 { fill: #0e4429; rx: 2px; animation: scanLevel1 4s infinite ease-in-out; }
+    .lvl-2 { fill: #006d32; rx: 2px; animation: scanLevel2 4s infinite ease-in-out; }
+    .lvl-3 { fill: #26a641; rx: 2px; animation: scanLevel3 4s infinite ease-in-out; }
+    .lvl-4 { fill: #39d353; rx: 2px; animation: scanLevel4 4s infinite ease-in-out; }
+    .lvl-purple { fill: #bb86fc; rx: 2px; animation: scanPurple 4s infinite ease-in-out; }
+
+    /* --- 核心动画时间轴同步控制 --- */
+    @keyframes scanLevel1 { 0%, 100% { opacity: 1; } 20% { opacity: 0.1; } 40% { opacity: 1; } }
+    @keyframes scanLevel2 { 0%, 100% { opacity: 1; } 40% { opacity: 0.1; } 60% { opacity: 1; } }
+    @keyframes scanLevel3 { 0%, 100% { opacity: 1; } 60% { opacity: 0.1; } 80% { opacity: 1; } }
+    @keyframes scanLevel4 { 0%, 100% { opacity: 1; } 70% { opacity: 0.1; } 90% { opacity: 1; } }
+    @keyframes scanPurple { 0%, 100% { opacity: 1; } 10% { opacity: 0.1; } 30% { opacity: 1; } }
+  </style>
+
+  <g class="lvl-0">
+    <rect x="0" y="0" width="11" height="11" /><rect x="0" y="15" width="11" height="11" /><rect x="0" y="30" width="11" height="11" /><rect x="0" y="45" width="11" height="11" /><rect x="0" y="60" width="11" height="11" />
+    <rect x="15" y="0" width="11" height="11" /><rect x="15" y="15" width="11" height="11" /><rect x="15" y="45" width="11" height="11" /><rect x="15" y="60" width="11" height="11" />
+    <rect x="30" y="15" width="11" height="11" /><rect x="30" y="30" width="11" height="11" /><rect x="30" y="45" width="11" height="11" />
+    <rect x="45" y="0" width="11" height="11" /><rect x="45" y="60" width="11" height="11" />
+  </g>
+
+  <g class="lvl-1">
+    <rect x="15" y="30" width="11" height="11" /><rect x="60" y="0" width="11" height="11" /><rect x="90" y="45" width="11" height="11" /><rect x="150" y="15" width="11" height="11" /><rect x="210" y="60" width="11" height="11" /><rect x="300" y="30" width="11" height="11" /><rect x="420" y="0" width="11" height="11" />
+  </g>
+
+  <g class="lvl-2">
+    <rect x="45" y="15" width="11" height="11" /><rect x="75" y="30" width="11" height="11" /><rect x="120" y="60" width="11" height="11" /><rect x="180" y="0" width="11" height="11" /><rect x="240" y="45" width="11" height="11" /><rect x="350" y="15" width="11" height="11" /><rect x="480" y="60" width="11" height="11" />
+  </g>
+
+  <g class="lvl-3">
+    <rect x="45" y="30" width="11" height="11" /><rect x="105" y="15" width="11" height="11" /><rect x="165" y="45" width="11" height="11" /><rect x="270" y="0" width="11" height="11" /><rect x="315" y="60" width="11" height="11" /><rect x="450" y="30" width="11" height="11" />
+  </g>
+
+  <g class="lvl-4">
+    <rect x="45" y="45" width="11" height="11" /><rect x="135" y="0" width="11" height="11" /><rect x="195" y="30" width="11" height="11" /><rect x="285" y="45" width="11" height="11" /><rect x="405" y="15" width="11" height="11" /><rect x="510" y="0" width="11" height="11" />
+  </g>
+
+  <g class="lvl-purple">
+    <rect x="380" y="30" width="11" height="11" /><rect x="380" y="45" width="11" height="11" /><rect x="395" y="45" width="11" height="11" />
+  </g>
+</svg>
