@@ -84,27 +84,21 @@ try:
     )
     with urllib.request.urlopen(quote_req, timeout=5) as response:
         quote_data = json.loads(response.read().decode("utf-8"))
-        selected_quote = f"{quote_data.get('hitokoto')}  —— 《{quote_data.get('from')}》"
+        selected_quote = f"{quote_data.get('hitokoto')}  —— 《{quote_data.get('from')} \u300b"
 except Exception:
     pass
 
-# 5. 精准写回 README.md（强化防崩溃逻辑）
+# 5. 精准写回 README.md（改用 100% 肉眼可见标签）
 if os.path.exists("README.md"):
     with open("README.md", "r", encoding="utf-8") as f:
         readme_text = f.read()
     
-    start_tag = ""
-    end_tag = ""
+    start_tag = "[QUOTE_START]"
+    end_tag = "[QUOTE_END]"
     
-    # 严格校验：确保两个隔离标签在 README 中真实存在，且绝对不为空
-    if start_tag and end_tag and start_tag in readme_text and end_tag in readme_text:
-        parts_start = readme_text.split(start_tag)
-        if len(parts_start) > 1:
-            before = parts_start[0]
-            rest = parts_start[1]
-            parts_end = rest.split(end_tag)
-            if len(parts_end) > 1:
-                after = parts_end[1]
-                new_readme = f"{before}{start_tag}\n\n> 💡 {selected_quote}\n\n{end_tag}{after}"
-                with open("README.md", "w", encoding="utf-8") as f:
-                    f.write(new_readme)
+    if start_tag in readme_text and end_tag in readme_text:
+        before = readme_text.split(start_tag)[0]
+        after = readme_text.split(end_tag)[1]
+        new_readme = f"{before}{start_tag}\n\n> 💡 {selected_quote}\n\n{end_tag}{after}"
+        with open("README.md", "w", encoding="utf-8") as f:
+            f.write(new_readme)
