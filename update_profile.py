@@ -36,7 +36,7 @@ try:
         res_data = json.loads(response.read().decode("utf-8"))
     weeks = res_data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
 except Exception:
-    exit(1)  # 抓取失败直接静默退出，不产生脏数据
+    exit(1)
 
 # 3. 动态绘制真实 matrix.svg
 svg_header = """<svg width="715" height="95" viewBox="0 0 715 95" xmlns="http://www.w3.org/2000/svg">
@@ -86,9 +86,9 @@ try:
         quote_data = json.loads(response.read().decode("utf-8"))
         selected_quote = f"{quote_data.get('hitokoto')}  —— 《{quote_data.get('from')}》"
 except Exception:
-    pass  # 网络超时则静默使用上方兜底语录
+    pass
 
-# 5. 精准写回 README.md 占位符
+# 5. 精准写回 README.md（强化防崩溃逻辑）
 if os.path.exists("README.md"):
     with open("README.md", "r", encoding="utf-8") as f:
         readme_text = f.read()
@@ -96,9 +96,15 @@ if os.path.exists("README.md"):
     start_tag = ""
     end_tag = ""
     
-    if start_tag in readme_text and end_tag in readme_text:
-        before = readme_text.split(start_tag)[0]
-        after = readme_text.split(end_tag)[1]
-        new_readme = f"{before}{start_tag}\n\n> 💡 {selected_quote}\n\n{end_tag}{after}"
-        with open("README.md", "w", encoding="utf-8") as f:
-            f.write(new_readme)
+    # 严格校验：确保两个隔离标签在 README 中真实存在，且绝对不为空
+    if start_tag and end_tag and start_tag in readme_text and end_tag in readme_text:
+        parts_start = readme_text.split(start_tag)
+        if len(parts_start) > 1:
+            before = parts_start[0]
+            rest = parts_start[1]
+            parts_end = rest.split(end_tag)
+            if len(parts_end) > 1:
+                after = parts_end[1]
+                new_readme = f"{before}{start_tag}\n\n> 💡 {selected_quote}\n\n{end_tag}{after}"
+                with open("README.md", "w", encoding="utf-8") as f:
+                    f.write(new_readme)
