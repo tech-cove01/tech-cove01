@@ -4,7 +4,7 @@
 ### 💬 每日动态语录
 <!-- QUOTE_START -->
 
-> 💡 都已立秋，又何必执着于夏天的故事。  —— 《立秋节》
+> 💡 日色欲尽花含烟，月明欲素愁不眠。  —— 《长相思·其二》
 
 <!-- QUOTE_END -->
 ---
@@ -23,12 +23,12 @@
 
 <!-- STATS_START -->
 ### 📈 我的赛博活跃心电图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1783827506)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1783857296)
 
 ### 📊 我的 GitHub 战力看板
-![](https://github-readme-stats.vercel.app/api?username=tech-cove01&show_icons=true&theme=ocean_dark&t=1783827506)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=tech-cove01&layout=compact&theme=ocean_dark&hide=html,css&t=1783827506)
-![](https://github-readme-streak-stats.herokuapp.com/?user=tech-cove01&theme=ocean_dark&t=1783827506)
+![](https://github-readme-stats.vercel.app/api?username=tech-cove01&show_icons=true&theme=ocean_dark&t=1783857296)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=tech-cove01&layout=compact&theme=ocean_dark&hide=html,css&t=1783857296)
+![](https://github-readme-streak-stats.herokuapp.com/?user=tech-cove01&theme=ocean_dark&t=1783857296)
 <!-- STATS_END -->
 ### 🛠️ 我的装备库
 
