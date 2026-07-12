@@ -32,4 +32,4 @@
 <!-- STATS_END -->
 ### 🛠️ 我的装备库
 
-<img src="https://img.shields.io/badge/Claude_Code-D97756?style=for-the-badge&logo=anthropic&logoColor=white" height="38" /> <img src="https://img.shields.io/badge/ChatGPT-00A67E?style=for-the-badge&logo=openai&logoColor=white" height="38" />  <img src="https://img.shields.io/badge/GLM-0052CC?style=for-the-badge&logo=robot&logoColor=white" height="38" />
+<img src="https://img.shields.io/badge/Claude_Code-D97756?style=for-the-badge&logo=anthropic&logoColor=white" height="38" /> <img src="https://img.shields.io/badge/ChatGPT-00A67E?style=for-the-badge&logo=openai&logoColor=white" height="38" />  <img src="https://img.shields.io/badge/SiliconFlow-0052CC?style=for-the-badge&logo=robot&logoColor=white" height="38" />
