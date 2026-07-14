@@ -4,7 +4,7 @@
 ### 💬 每日动态语录
 <!-- QUOTE_START -->
 
-> 💡 不敢正视你的眼睛，是怕我每一个眼神都在告白。  —— 《九ちのセカィ》
+> 💡 就算是自私⋯⋯我也希望那些人能够永远都有笑容⋯⋯  —— 《夏目友人帐》
 
 <!-- QUOTE_END -->
 ---
@@ -23,12 +23,12 @@
 
 <!-- STATS_START -->
 ### 📈 我的赛博活跃心电图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1783914037)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1783998947)
 
 ### 📊 我的 GitHub 战力看板
-![](https://github-readme-stats.vercel.app/api?username=tech-cove01&show_icons=true&theme=ocean_dark&t=1783914037)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=tech-cove01&layout=compact&theme=ocean_dark&hide=html,css&t=1783914037)
-![](https://github-readme-streak-stats.herokuapp.com/?user=tech-cove01&theme=ocean_dark&t=1783914037)
+![](https://github-readme-stats.vercel.app/api?username=tech-cove01&show_icons=true&theme=ocean_dark&t=1783998947)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=tech-cove01&layout=compact&theme=ocean_dark&hide=html,css&t=1783998947)
+![](https://github-readme-streak-stats.herokuapp.com/?user=tech-cove01&theme=ocean_dark&t=1783998947)
 <!-- STATS_END -->
 ### 🛠️ 我的装备库
 
