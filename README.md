@@ -4,7 +4,7 @@
 ### 💬 每日动态语录
 <!-- QUOTE_START -->
 
-> 💡 忽如一夜春风来，千树万树梨花开。  —— 《白雪歌送武判官归京》
+> 💡 我喝过你喝的西北风，这算不算很穷。  —— 《网易云》
 
 <!-- QUOTE_END -->
 ---
@@ -23,12 +23,12 @@
 
 <!-- STATS_START -->
 ### 📈 我的赛博活跃心电图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1784085317)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1784172112)
 
 ### 📊 我的 GitHub 战力看板
-![](https://github-readme-stats.vercel.app/api?username=tech-cove01&show_icons=true&theme=ocean_dark&t=1784085317)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=tech-cove01&layout=compact&theme=ocean_dark&hide=html,css&t=1784085317)
-![](https://github-readme-streak-stats.herokuapp.com/?user=tech-cove01&theme=ocean_dark&t=1784085317)
+![](https://github-readme-stats.vercel.app/api?username=tech-cove01&show_icons=true&theme=ocean_dark&t=1784172112)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=tech-cove01&layout=compact&theme=ocean_dark&hide=html,css&t=1784172112)
+![](https://github-readme-streak-stats.herokuapp.com/?user=tech-cove01&theme=ocean_dark&t=1784172112)
 <!-- STATS_END -->
 ### 🛠️ 我的装备库
 

@@ -377,5 +377,6 @@
     <rect x="676" y="13" width="11" height="11" class="lvl-4" />
     <rect x="676" y="26" width="11" height="11" class="lvl-2" />
     <rect x="676" y="39" width="11" height="11" class="lvl-0" />
+    <rect x="676" y="52" width="11" height="11" class="lvl-0" />
   </g>
 </svg>
