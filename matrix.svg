@@ -364,21 +364,15 @@
     <rect x="650" y="26" width="11" height="11" class="lvl-0" />
     <rect x="650" y="39" width="11" height="11" class="lvl-0" />
     <rect x="650" y="52" width="11" height="11" class="lvl-0" />
-    <rect x="650" y="65" width="11" height="11" class="lvl-0" />
-    <rect x="650" y="78" width="11" height="11" class="lvl-0" />
-    <rect x="663" y="0" width="11" height="11" class="lvl-0" />
-    <rect x="663" y="13" width="11" height="11" class="lvl-0" />
-    <rect x="663" y="26" width="11" height="11" class="lvl-0" />
+    <rect x="650" y="65" width="11" height="11" class="lvl-2" />
+    <rect x="650" y="78" width="11" height="11" class="lvl-4" />
+    <rect x="663" y="0" width="11" height="11" class="lvl-4" />
+    <rect x="663" y="13" width="11" height="11" class="lvl-4" />
+    <rect x="663" y="26" width="11" height="11" class="lvl-2" />
     <rect x="663" y="39" width="11" height="11" class="lvl-0" />
     <rect x="663" y="52" width="11" height="11" class="lvl-0" />
-    <rect x="663" y="65" width="11" height="11" class="lvl-2" />
-    <rect x="663" y="78" width="11" height="11" class="lvl-4" />
-    <rect x="676" y="0" width="11" height="11" class="lvl-4" />
-    <rect x="676" y="13" width="11" height="11" class="lvl-4" />
-    <rect x="676" y="26" width="11" height="11" class="lvl-2" />
-    <rect x="676" y="39" width="11" height="11" class="lvl-0" />
-    <rect x="676" y="52" width="11" height="11" class="lvl-0" />
-    <rect x="676" y="65" width="11" height="11" class="lvl-0" />
-    <rect x="676" y="78" width="11" height="11" class="lvl-0" />
+    <rect x="663" y="65" width="11" height="11" class="lvl-0" />
+    <rect x="663" y="78" width="11" height="11" class="lvl-0" />
+    <rect x="676" y="0" width="11" height="11" class="lvl-0" />
   </g>
 </svg>
