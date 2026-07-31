@@ -4,7 +4,7 @@
 ### 💬 每日动态语录
 <!-- QUOTE_START -->
 
-> 💡 奇迹，只不过是努力的另一个名字罢了。  —— 《其他》
+> 💡 方生方死，方死方生，方可方不可，方不可方可。  —— 《齐物论》
 
 <!-- QUOTE_END -->
 ---
@@ -23,12 +23,12 @@
 
 <!-- STATS_START -->
 ### 📈 我的赛博活跃心电图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1785380094)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1785469061)
 
 ### 📊 我的 GitHub 战力看板
-![](https://github-readme-stats.vercel.app/api?username=tech-cove01&show_icons=true&theme=ocean_dark&t=1785380094)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=tech-cove01&layout=compact&theme=ocean_dark&hide=html,css&t=1785380094)
-![](https://github-readme-streak-stats.herokuapp.com/?user=tech-cove01&theme=ocean_dark&t=1785380094)
+![](https://github-readme-stats.vercel.app/api?username=tech-cove01&show_icons=true&theme=ocean_dark&t=1785469061)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=tech-cove01&layout=compact&theme=ocean_dark&hide=html,css&t=1785469061)
+![](https://github-readme-streak-stats.herokuapp.com/?user=tech-cove01&theme=ocean_dark&t=1785469061)
 <!-- STATS_END -->
 ### 🛠️ 我的装备库
 
