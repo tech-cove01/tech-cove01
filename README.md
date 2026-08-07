@@ -4,7 +4,7 @@
 ### 💬 每日动态语录
 <!-- QUOTE_START -->
 
-> 💡 也许我或者“我们”，终有一天能自由地生存着。  —— 《清华THUPC 2020》
+> 💡 就算风吹散了冰雪，想念也会留存下来。  —— 《滑头鬼之孙》
 
 <!-- QUOTE_END -->
 ---
@@ -23,12 +23,12 @@
 
 <!-- STATS_START -->
 ### 📈 我的赛博活跃心电图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1785986459)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1786072139)
 
 ### 📊 我的 GitHub 战力看板
-![](https://github-readme-stats.vercel.app/api?username=tech-cove01&show_icons=true&theme=ocean_dark&t=1785986459)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=tech-cove01&layout=compact&theme=ocean_dark&hide=html,css&t=1785986459)
-![](https://github-readme-streak-stats.herokuapp.com/?user=tech-cove01&theme=ocean_dark&t=1785986459)
+![](https://github-readme-stats.vercel.app/api?username=tech-cove01&show_icons=true&theme=ocean_dark&t=1786072139)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=tech-cove01&layout=compact&theme=ocean_dark&hide=html,css&t=1786072139)
+![](https://github-readme-streak-stats.herokuapp.com/?user=tech-cove01&theme=ocean_dark&t=1786072139)
 <!-- STATS_END -->
 ### 🛠️ 我的装备库
 
