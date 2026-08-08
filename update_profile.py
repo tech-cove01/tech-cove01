@@ -31,7 +31,6 @@ query($login: String!) {
 }
 """
 
-# ⚠️ 注意：GitHub API 强制要求添加 User-Agent 请求头，否则返回 403
 req = urllib.request.Request(
     "https://api.github.com/graphql",
     data=json.dumps({"query": query, "variables": {"login": username}}).encode("utf-8"),
@@ -51,48 +50,42 @@ try:
         exit(1)
         
     weeks = res_data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
-    print(f"✅ 成功抓取到 {len(weeks)} 周的 GitHub 贡献数据！")
+    print(f"✅ 成功抓取到 {len(weeks)} 周的数据！")
 except Exception as e:
-    print(f"❌ 请求 GitHub GraphQL 失败，详细报错: {e}")
+    print(f"❌ 请求 GitHub GraphQL 失败: {e}")
     exit(1)
 
-# 3. 动态绘制真实 matrix.svg
-svg_header = """<svg width="715" height="95" viewBox="0 0 715 95" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .lvl-0 { fill: #161b22; rx: 2px; }
-    .lvl-1 { fill: #0e4429; rx: 2px; animation: scanLevel1 4s infinite ease-in-out; }
-    .lvl-2 { fill: #006d32; rx: 2px; animation: scanLevel2 4s infinite ease-in-out; }
-    .lvl-3 { fill: #26a641; rx: 2px; animation: scanLevel1 4s infinite ease-in-out; }
-    .lvl-4 { fill: #39d353; rx: 2px; animation: scanLevel2 4s infinite ease-in-out; }
-    @keyframes scanLevel1 { 0%, 100% { opacity: 1; } 20% { opacity: 0.1; } 40% { opacity: 1; } }
-    @keyframes scanLevel2 { 0%, 100% { opacity: 1; } 50% { opacity: 0.1; } 100% { opacity: 1; } }
-  </style>
-  <g>
-"""
+# 3. 动态绘制 matrix.svg（动态计算精准宽度 + 100% 自适应，彻底解决裁切问题）
+total_weeks = len(weeks)
+svg_width = total_weeks * 13  # 每周占 13px (11px 方块 + 2px 间距)
+svg_height = 95
 
-rects = []
-level_map = {
-    "NONE": "lvl-0",
-    "FIRST_QUARTILE": "lvl-1",
-    "SECOND_QUARTILE": "lvl-2",
-    "THIRD_QUARTILE": "lvl-3",
-    "FOURTH_QUARTILE": "lvl-4"
+# ⚠️ 将 width 设置为 100%，由 viewBox 掌控比例，完美适配任何屏幕与 GitHub 容器
+svg_header = f'<svg width="100%" viewBox="0 0 {svg_width} {svg_height}" xmlns="http://www.w3.org/2000/svg">\n  <g>\n'
+
+color_map = {
+    "NONE": "#161b22",
+    "FIRST_QUARTILE": "#0e4429",
+    "SECOND_QUARTILE": "#006d32",
+    "THIRD_QUARTILE": "#26a641",
+    "FOURTH_QUARTILE": "#39d353"
 }
 
+rects = []
 for week_idx, week in enumerate(weeks):
     for day in week["contributionDays"]:
         day_idx = day["weekday"]
         level = day["contributionLevel"]
-        cls = level_map.get(level, "lvl-0")
+        fill_color = color_map.get(level, "#161b22")
         x = week_idx * 13
         y = day_idx * 13
-        rects.append(f'    <rect x="{x}" y="{y}" width="11" height="11" class="{cls}" />')
+        rects.append(f'    <rect x="{x}" y="{y}" width="11" height="11" fill="{fill_color}" rx="2" />')
 
 svg_content = svg_header + "\n".join(rects) + "\n  </g>\n</svg>"
 
 with open("matrix.svg", "w", encoding="utf-8") as f:
     f.write(svg_content)
-print("✅ matrix.svg 生成完毕！")
+print(f"✅ matrix.svg 渲染成功！动态宽度: {svg_width}px")
 
 # 4. 实时联网抓取一言语录
 selected_quote = "生活原本沉闷，但跑起来就会有风。"
@@ -112,7 +105,6 @@ if os.path.exists("README.md"):
     with open("README.md", "r", encoding="utf-8") as f:
         readme_text = f.read()
     
-    # 5.1 更新动态语录
     start_tag = "<!-- QUOTE_START -->"
     end_tag = "<!-- QUOTE_END -->"
     if start_tag in readme_text and end_tag in readme_text:
@@ -120,7 +112,6 @@ if os.path.exists("README.md"):
         after = readme_text.split(end_tag)[1]
         readme_text = f"{before}{start_tag}\n\n> 💡 {selected_quote}\n\n{end_tag}{after}"
     
-    # 5.2 动态写回看板（同步修正了之前失效的 streak 域名与缓存配置）
     stats_start = "<!-- STATS_START -->"
     stats_end = "<!-- STATS_END -->"
     if stats_start in readme_text and stats_end in readme_text:
