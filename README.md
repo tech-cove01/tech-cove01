@@ -4,7 +4,7 @@
 ### 💬 每日动态语录
 <!-- QUOTE_START -->
 
-> 💡 彼岸花花开彼岸，断肠草草断肝肠。  —— 《MXLBS》
+> 💡 浮生短暂，终将归宁。  —— 《蛋仔派对》
 
 <!-- QUOTE_END -->
 ---
@@ -23,12 +23,12 @@
 
 <!-- STATS_START -->
 ### 📈 我的赛博活跃心电图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1786209380)
 
 ### 📊 我的 GitHub 战力看板
-![](https://github-readme-stats.vercel.app/api?username=tech-cove01&show_icons=true&theme=ocean_dark&cache_seconds=1800)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=tech-cove01&layout=compact&theme=ocean_dark&hide=html,css&cache_seconds=1800)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark)
+![](https://github-readme-stats.vercel.app/api?username=tech-cove01&show_icons=true&theme=ocean_dark&t=1786209380)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=tech-cove01&layout=compact&theme=ocean_dark&hide=html,css&t=1786209380)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1786209380)
 <!-- STATS_END -->
 ### 🛠️ 我的装备库
 
