@@ -3,17 +3,17 @@ import json
 import urllib.request
 import time
 
-# 1. 读取环境变量
-token = os.environ.get("GH_PAT") or os.environ.get("GITHUB_TOKEN")
+# 1. 初始化环境变量
+token = os.environ.get("GITHUB_TOKEN")
 repo = os.environ.get("GITHUB_REPOSITORY", "")
 username = repo.split("/")[0] if "/" in repo else repo
-current_time = int(time.time())
+current_time = int(time.time())  # 动态时间戳破除缓存
 
 if not token or not username:
-    print("❌ 错误：未读取到 Token 或 GITHUB_REPOSITORY 环境变量！")
+    print("❌ 错误：未读取到 GITHUB_TOKEN 或 GITHUB_REPOSITORY 环境变量！")
     exit(1)
 
-# 2. GraphQL 查询 GitHub 官方贡献墙数据
+# 2. GraphQL 查询真实数据
 query = """
 query($login: String!) {
   user(login: $login) {
@@ -31,13 +31,14 @@ query($login: String!) {
 }
 """
 
+# ⚠️ 关键修复：GitHub GraphQL API 必须包含 User-Agent，否则报 403 退出
 req = urllib.request.Request(
     "https://api.github.com/graphql",
     data=json.dumps({"query": query, "variables": {"login": username}}).encode("utf-8"),
     headers={
         "Authorization": f"Bearer {token}",
         "Content-Type": "application/json",
-        "User-Agent": "Mozilla/5.0 (GitHub-Matrix-Generator)"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
     }
 )
 
@@ -46,76 +47,98 @@ try:
         res_data = json.loads(response.read().decode("utf-8"))
         
     if "errors" in res_data:
-        print("❌ GraphQL 查询失败:", json.dumps(res_data["errors"], indent=2))
+        print("❌ GraphQL 查询报错:", json.dumps(res_data["errors"]))
         exit(1)
         
     weeks = res_data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
-    print(f"✅ 成功读取 GitHub 官方数据，共 {len(weeks)} 周！")
+    print(f"✅ 成功抓取到 {len(weeks)} 周的数据！")
 except Exception as e:
-    print(f"❌ 请求失败: {e}")
+    print(f"❌ 请求 GitHub API 失败: {e}")
     exit(1)
 
-# 3. 绘制 1:1 还原官方绿墙的 matrix.svg
-padding = 6       # 外边距，防止贴边
-box_size = 11     # 方块大小
-step = 13         # 方块 11px + 间距 2px
-
-total_weeks = len(weeks)
-svg_width = padding * 2 + total_weeks * step - 2
-svg_height = padding * 2 + 7 * step - 2
-
-svg_header = f'<svg width="100%" viewBox="0 0 {svg_width} {svg_height}" xmlns="http://www.w3.org/2000/svg">\n  <g>\n'
-
-# GitHub 官方绿墙 5 档颜色
-color_map = {
-    "NONE": "#161b22",
-    "FIRST_QUARTILE": "#0e4429",
-    "SECOND_QUARTILE": "#006d32",
-    "THIRD_QUARTILE": "#26a641",
-    "FOURTH_QUARTILE": "#39d353"
-}
+# 3. 动态绘制 matrix.svg（原汁原味还原你的呼吸/闪烁动画样式）
+svg_header = """<svg width="715" height="95" viewBox="0 0 715 95" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .lvl-0 { fill: #161b22; rx: 2px; }
+    .lvl-1 { fill: #0e4429; rx: 2px; animation: scanLevel1 4s infinite ease-in-out; }
+    .lvl-2 { fill: #006d32; rx: 2px; animation: scanLevel2 4s infinite ease-in-out; }
+    .lvl-3 { fill: #26a641; rx: 2px; animation: scanLevel1 4s infinite ease-in-out; }
+    .lvl-4 { fill: #39d353; rx: 2px; animation: scanLevel2 4s infinite ease-in-out; }
+    @keyframes scanLevel1 { 0%, 100% { opacity: 1; } 20% { opacity: 0.1; } 40% { opacity: 1; } }
+    @keyframes scanLevel2 { 0%, 100% { opacity: 1; } 50% { opacity: 0.1; } 100% { opacity: 1; } }
+  </style>
+  <g>
+"""
 
 rects = []
+level_map = {
+    "NONE": "lvl-0",
+    "FIRST_QUARTILE": "lvl-1",
+    "SECOND_QUARTILE": "lvl-2",
+    "THIRD_QUARTILE": "lvl-3",
+    "FOURTH_QUARTILE": "lvl-4"
+}
+
 for week_idx, week in enumerate(weeks):
     for day in week["contributionDays"]:
         day_idx = day["weekday"]
         level = day["contributionLevel"]
-        fill_color = color_map.get(level, "#161b22")
-        
-        x = padding + week_idx * step
-        y = padding + day_idx * step
-        rects.append(f'    <rect x="{x}" y="{y}" width="{box_size}" height="{box_size}" fill="{fill_color}" rx="2" />')
+        cls = level_map.get(level, "lvl-0")
+        x = week_idx * 13
+        y = day_idx * 13
+        rects.append(f'    <rect x="{x}" y="{y}" width="11" height="11" class="{cls}" />')
 
 svg_content = svg_header + "\n".join(rects) + "\n  </g>\n</svg>"
 
 with open("matrix.svg", "w", encoding="utf-8") as f:
     f.write(svg_content)
-print("✅ matrix.svg 已成功生成并写入！")
+print("✅ matrix.svg 重新生成成功（已恢复闪烁效果）！")
 
-# 4. 抓取一言语录并更新 README.md
+# 4. 实时联网抓取一言语录
 selected_quote = "生活原本沉闷，但跑起来就会有风。"
 try:
     quote_req = urllib.request.Request(
         "https://v1.hitokoto.cn/", 
-        headers={"User-Agent": "Mozilla/5.0"}
+        headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
     )
     with urllib.request.urlopen(quote_req, timeout=5) as response:
         quote_data = json.loads(response.read().decode("utf-8"))
         selected_quote = f"{quote_data.get('hitokoto')}  —— 《{quote_data.get('from')}》"
-except Exception:
-    pass
+except Exception as e:
+    print(f"⚠️ 一言抓取失败，使用默认语录: {e}")
 
+# 5. 精准写回 README.md 
 if os.path.exists("README.md"):
     with open("README.md", "r", encoding="utf-8") as f:
         readme_text = f.read()
     
+    # 5.1 更新动态语录
     start_tag = "<!-- QUOTE_START -->"
     end_tag = "<!-- QUOTE_END -->"
     if start_tag in readme_text and end_tag in readme_text:
         before = readme_text.split(start_tag)[0]
         after = readme_text.split(end_tag)[1]
         readme_text = f"{before}{start_tag}\n\n> 💡 {selected_quote}\n\n{end_tag}{after}"
+    
+    # 5.2 动态写回带时间戳的看板
+    stats_start = "<!-- STATS_START -->"
+    stats_end = "<!-- STATS_END -->"
+    if stats_start in readme_text and stats_end in readme_text:
+        before_stats = readme_text.split(stats_start)[0]
+        after_stats = readme_text.split(stats_end)[1]
+        
+        dynamic_stats_block = f"""{stats_start}
+### 📈 我的赛博活跃心电图
+![](https://github-readme-activity-graph.vercel.app/graph?username={username}&theme=react-dark&bg_color=0d1117&hide_border=true&t={current_time})
+
+### 📊 我的 GitHub 战力看板
+![](https://github-readme-stats.vercel.app/api?username={username}&show_icons=true&theme=ocean_dark&t={current_time})
+![](https://github-readme-stats.vercel.app/api/top-langs/?username={username}&layout=compact&theme=ocean_dark&hide=html,css&t={current_time})
+![](https://streak-stats.demolab.com/?user={username}&theme=ocean_dark&t={current_time})
+{stats_end}"""
+        
+        readme_text = f"{before_stats}{dynamic_stats_block}{after_stats}"
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme_text)
-    print("✅ README.md 同步更新成功！")
+    print("✅ README.md 更新完成！")
