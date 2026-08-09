@@ -3,7 +3,7 @@ name: Update Profile Matrix and Chinese Joke
 on:
   schedule:
     - cron: "0 0 * * *" # 每天凌晨自动刷新数据
-  workflow_dispatch: # 支持你在 Action 界面手动点击刷新
+  workflow_dispatch: # 支持在 Action 界面手动点击刷新
   push:
     branches:
       - main
@@ -24,21 +24,18 @@ jobs:
         with:
           python-version: '3.x'
 
+      # 1. 运行你的 Python 脚本（同时传入 MY_PAT 和默认 GITHUB_TOKEN）
       - name: Generate Real Matrix and Pick Joke
         env:
+          MY_PAT: ${{ secrets.MY_PAT }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python update_profile.py
 
+      # 2. 将生成的新文件提交并推送到仓库
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add matrix.svg README.md
-          git diff-index --quiet HEAD || git commit -m "chore: 生成的临时文件"
+          git diff-index --quiet HEAD || git commit -m "chore: auto update matrix and quote"
           git push
-
-      - name: Run Python Script
-        env:
-          MY_PAT: ${{ secrets.MY_PAT }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python your_script_name.py
