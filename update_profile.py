@@ -3,14 +3,14 @@ import json
 import urllib.request
 import time
 
-# 1. 初始化环境变量
-token = os.environ.get("GITHUB_TOKEN")
+# 1. 读取环境变量：优先读取带有本人私有权限的 MY_PAT
+token = os.environ.get("MY_PAT") or os.environ.get("GITHUB_TOKEN")
 repo = os.environ.get("GITHUB_REPOSITORY", "")
 username = repo.split("/")[0] if "/" in repo else repo
-current_time = int(time.time())  # 动态时间戳破除缓存
+current_time = int(time.time())
 
 if not token or not username:
-    print("❌ 错误：未读取到 GITHUB_TOKEN 或 GITHUB_REPOSITORY 环境变量！")
+    print("❌ 错误：未读取到有效的 Token！")
     exit(1)
 
 # 2. GraphQL 查询真实数据
@@ -31,7 +31,6 @@ query($login: String!) {
 }
 """
 
-# ⚠️ 关键修复：GitHub GraphQL API 必须包含 User-Agent，否则报 403 退出
 req = urllib.request.Request(
     "https://api.github.com/graphql",
     data=json.dumps({"query": query, "variables": {"login": username}}).encode("utf-8"),
@@ -47,16 +46,16 @@ try:
         res_data = json.loads(response.read().decode("utf-8"))
         
     if "errors" in res_data:
-        print("❌ GraphQL 查询报错:", json.dumps(res_data["errors"]))
+        print("❌ GraphQL 查询失败:", json.dumps(res_data["errors"]))
         exit(1)
         
     weeks = res_data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
-    print(f"✅ 成功抓取到 {len(weeks)} 周的数据！")
+    print(f"✅ 成功读取数据，共 {len(weeks)} 周！")
 except Exception as e:
-    print(f"❌ 请求 GitHub API 失败: {e}")
+    print(f"❌ 请求失败: {e}")
     exit(1)
 
-# 3. 动态绘制 matrix.svg（原汁原味还原你的呼吸/闪烁动画样式）
+# 3. 动态绘制 matrix.svg (恢复你的闪烁 CSS 样式)
 svg_header = """<svg width="715" height="95" viewBox="0 0 715 95" xmlns="http://www.w3.org/2000/svg">
   <style>
     .lvl-0 { fill: #161b22; rx: 2px; }
@@ -92,7 +91,6 @@ svg_content = svg_header + "\n".join(rects) + "\n  </g>\n</svg>"
 
 with open("matrix.svg", "w", encoding="utf-8") as f:
     f.write(svg_content)
-print("✅ matrix.svg 重新生成成功（已恢复闪烁效果）！")
 
 # 4. 实时联网抓取一言语录
 selected_quote = "生活原本沉闷，但跑起来就会有风。"
@@ -104,15 +102,14 @@ try:
     with urllib.request.urlopen(quote_req, timeout=5) as response:
         quote_data = json.loads(response.read().decode("utf-8"))
         selected_quote = f"{quote_data.get('hitokoto')}  —— 《{quote_data.get('from')}》"
-except Exception as e:
-    print(f"⚠️ 一言抓取失败，使用默认语录: {e}")
+except Exception:
+    pass
 
-# 5. 精准写回 README.md 
+# 5. 写回 README.md
 if os.path.exists("README.md"):
     with open("README.md", "r", encoding="utf-8") as f:
         readme_text = f.read()
     
-    # 5.1 更新动态语录
     start_tag = "<!-- QUOTE_START -->"
     end_tag = "<!-- QUOTE_END -->"
     if start_tag in readme_text and end_tag in readme_text:
@@ -120,7 +117,6 @@ if os.path.exists("README.md"):
         after = readme_text.split(end_tag)[1]
         readme_text = f"{before}{start_tag}\n\n> 💡 {selected_quote}\n\n{end_tag}{after}"
     
-    # 5.2 动态写回带时间戳的看板
     stats_start = "<!-- STATS_START -->"
     stats_end = "<!-- STATS_END -->"
     if stats_start in readme_text and stats_end in readme_text:
@@ -141,4 +137,3 @@ if os.path.exists("README.md"):
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme_text)
-    print("✅ README.md 更新完成！")
