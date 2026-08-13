@@ -19,7 +19,7 @@
 ### 💬 每日动态语录
 <!-- QUOTE_START -->
 
-> 💡 恐惧，是弱点劫持了，你身体里的驾驶舱。  —— 《A Minecraft movie》
+> 💡 忘羡一曲远，曲终人不散  —— 《网络》
 
 <!-- QUOTE_END -->
 
@@ -53,8 +53,8 @@
 
 <!-- STATS_START -->
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1786600819)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1786600819)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1786600983)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1786600983)
 <!-- STATS_END -->
 
 <p align="center">
