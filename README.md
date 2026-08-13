@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 忘羡一曲远，曲终人不散 —— 《网络》</p>
+<p style="font-size:26px">💡 人生不如意十有八九！  —— 《龙与虎》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -55,8 +55,8 @@
 
 <!-- STATS_START -->
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1786600983)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1786600983)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1786601550)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1786601550)
 <!-- STATS_END -->
 
 <p align="center">
