@@ -26,7 +26,7 @@ src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:1f6feb
 ### 💬 每日动态语录
 <!-- QUOTE_START -->
 
-> 💡 无论如何轮回做出选择，终将还是会后悔。  —— 《HUAMBAKA》
+> 💡 离别长，欢聚短，若共把酒为歌，且斟余生一酌。  —— 《烟雨江湖》
 
 <!-- QUOTE_END -->
 
@@ -63,8 +63,8 @@ src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:1f6feb
 
 <!-- STATS_START -->
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1786588292)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1786588292)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1786600491)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1786600491)
 <!-- STATS_END -->
 
 </details>
