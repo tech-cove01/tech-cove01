@@ -54,9 +54,13 @@
 ---
 
 <!-- STATS_START -->
+<div align="center">
+
 ### 📈 活跃图
 ![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1786601550)
 ![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1786601550)
+
+</div>
 <!-- STATS_END -->
 
 <p align="center">
