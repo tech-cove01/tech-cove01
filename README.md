@@ -19,7 +19,7 @@
 ### 💬 每日动态语录
 <!-- QUOTE_START -->
 
-> 💡 离别长，欢聚短，若共把酒为歌，且斟余生一酌。  —— 《烟雨江湖》
+> 💡 恐惧，是弱点劫持了，你身体里的驾驶舱。  —— 《A Minecraft movie》
 
 <!-- QUOTE_END -->
 
@@ -56,8 +56,8 @@
 
 <!-- STATS_START -->
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1786600491)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1786600491)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1786600819)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1786600819)
 <!-- STATS_END -->
 
 </details>
