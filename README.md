@@ -1,10 +1,3 @@
-<!-- ====================== 波浪头部（readme3 深色底） ====================== -->
-
-<p align="center">
-<img width="100%"
-src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:1f6feb,100:0d1117"/>
-</p>
-
 <!-- ====================== 动态 SVG 标题 ====================== -->
 
 <p align="center">
@@ -13,7 +6,7 @@ src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:1f6feb
 
 # 👋 哈喽，我是 tech！
 
-<!-- ====================== 打字机效果（有趣语录） ====================== -->
+<!-- ====================== 打字机效果（中文语录） ====================== -->
 
 <p align="center">
 
@@ -68,15 +61,6 @@ src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:1f6feb
 <!-- STATS_END -->
 
 </details>
-
-<!-- ====================== 波浪尾部（readme3 深色底） ====================== -->
-
-<p align="center">
-
-<img width="100%"
-src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:1f6feb,100:0d1117"/>
-
-</p>
 
 <p align="center">
 
