@@ -1,4 +1,26 @@
+<!-- ====================== 波浪头部（readme3 深色底） ====================== -->
+
+<p align="center">
+<img width="100%"
+src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:1f6feb,100:0d1117"/>
+</p>
+
+<!-- ====================== 动态 SVG 标题 ====================== -->
+
+<p align="center">
+<img width="100%" src="./title-anim.svg"/>
+</p>
+
 # 👋 哈喽，我是 tech！
+
+<!-- ====================== 打字机效果（有趣语录） ====================== -->
+
+<p align="center">
+
+<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=26&duration=2500&pause=800&center=true&vCenter=true&width=900&color=58a6ff&lines=%E6%85%A2%E6%85%A2%E6%9D%A5%EF%BC%8C%E6%AF%94%E8%BE%83%E5%BF%AB;%E5%A5%BD%E5%A5%BD%E5%90%83%E9%A5%AD%EF%BC%8C%E5%A5%BD%E5%A5%BD%E7%9D%A1%E8%A7%89;%E4%BB%8A%E5%A4%A9%E7%9A%84%E4%BB%BB%E5%8A%A1%E6%98%AF%EF%BC%9A%E5%81%9A%E4%BB%BB%E5%8A%A1;%E9%A9%AF%E6%9C%8Dagent%E4%B8%AD%E2%80%A6"/>
+
+</p>
+
 ---
 
 ### 💬 每日动态语录
@@ -7,29 +29,57 @@
 > 💡 无论如何轮回做出选择，终将还是会后悔。  —— 《HUAMBAKA》
 
 <!-- QUOTE_END -->
+
 ---
-### 📊 数据统计
-![](./matrix.svg)
+
+### 🐍 贡献贪吃蛇
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tech-cove01/tech-cove01/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tech-cove01/tech-cove01/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/tech-cove01/tech-cove01/output/github-contribution-grid-snake.svg">
+</picture>
+
+---
+
 ### 🚀 专注于摆烂
 
+<div align="center">
+
+> 🛠️ **技术栈**：ChatGPT，and more.(hh)
+>
+> 🔭 **探索**：摸索 agent 中...
+>
+> 💬 **聊天**：任何你感兴趣的东西
+>
+> ⚡ **座右铭**：energetic
+
+</div>
+
 ---
 
-- 🛠️ **我目前常用的技术栈**：ChatGPT，and more.(hh)
-- 🔭 **正在进行的探索**：摸索agent中...
-- 💬 **你可以和我聊**：任何你感兴趣的东西.
-- ⚡ **座右铭**：energetic
-
----
+<details>
+<summary><b>📈 更多统计</b></summary>
 
 <!-- STATS_START -->
-### 📈 我的赛博活跃心电图
+### 📈 活跃图
 ![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1786588292)
-
-### 📊 我的 GitHub 战力看板
-![](https://github-readme-stats.vercel.app/api?username=tech-cove01&show_icons=true&theme=ocean_dark&t=1786588292)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=tech-cove01&layout=compact&theme=ocean_dark&hide=html,css&t=1786588292)
 ![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1786588292)
 <!-- STATS_END -->
-### 🛠️ 我的装备库
 
-<img src="https://img.shields.io/badge/Claude_Code-D97756?style=for-the-badge&logo=anthropic&logoColor=white" height="38" /> <img src="https://img.shields.io/badge/ChatGPT-00A67E?style=for-the-badge&logo=openai&logoColor=white" height="38" />  <img src="https://img.shields.io/badge/and more-0052CC?style=for-the-badge&logo=robot&logoColor=white" height="38" />
+</details>
+
+<!-- ====================== 波浪尾部（readme3 深色底） ====================== -->
+
+<p align="center">
+
+<img width="100%"
+src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:1f6feb,100:0d1117"/>
+
+</p>
+
+<p align="center">
+
+**⭐ Thanks for visiting my profile ⭐**
+
+</p>

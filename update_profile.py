@@ -124,12 +124,8 @@ if os.path.exists("README.md"):
         after_stats = readme_text.split(stats_end)[1]
         
         dynamic_stats_block = f"""{stats_start}
-### 📈 我的赛博活跃心电图
+### 📈 活跃图
 ![](https://github-readme-activity-graph.vercel.app/graph?username={username}&theme=react-dark&bg_color=0d1117&hide_border=true&t={current_time})
-
-### 📊 我的 GitHub 战力看板
-![](https://github-readme-stats.vercel.app/api?username={username}&show_icons=true&theme=ocean_dark&t={current_time})
-![](https://github-readme-stats.vercel.app/api/top-langs/?username={username}&layout=compact&theme=ocean_dark&hide=html,css&t={current_time})
 ![](https://streak-stats.demolab.com/?user={username}&theme=ocean_dark&t={current_time})
 {stats_end}"""
         
