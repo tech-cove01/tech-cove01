@@ -19,7 +19,9 @@
 ### 💬 每日动态语录
 <!-- QUOTE_START -->
 
-> 💡 忘羡一曲远，曲终人不散  —— 《网络》
+<div align="center">
+<p style="font-size:26px">💡 忘羡一曲远，曲终人不散 —— 《网络》</p>
+</div>
 
 <!-- QUOTE_END -->
 

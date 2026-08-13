@@ -115,7 +115,7 @@ if os.path.exists("README.md"):
     if start_tag in readme_text and end_tag in readme_text:
         before = readme_text.split(start_tag)[0]
         after = readme_text.split(end_tag)[1]
-        readme_text = f"{before}{start_tag}\n\n> 💡 {selected_quote}\n\n{end_tag}{after}"
+        readme_text = f"{before}{start_tag}\n\n<div align=\"center\">\n<p style=\"font-size:26px\">💡 {selected_quote}</p>\n</div>\n\n{end_tag}{after}"
     
     stats_start = "<!-- STATS_START -->"
     stats_end = "<!-- STATS_END -->"
