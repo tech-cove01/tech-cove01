@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 天之涯，地之角，知交半零落，一壶浊酒尽余欢，今宵别梦寒。  —— 《送别》</p>
+<p style="font-size:26px">💡 我们把世界看错，反说它欺骗了我们。  —— 《飞鸟集》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1786931136)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1786931136)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1787017211)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1787017211)
 
 </div>
 <!-- STATS_END -->
