@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 我们，在路上，勿忘初心。找寻最初的梦想和微弱的希望。  —— 《根号菌SAMA》</p>
+<p style="font-size:26px">💡 你受伤的时候，我永远都在。  —— 《多啦A梦》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1787103746)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1787103746)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1787190063)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1787190063)
 
 </div>
 <!-- STATS_END -->
