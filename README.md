@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 遇酒且呵呵，人生能几何！  —— 《菩萨蛮·劝君今夜须沈醉》</p>
+<p style="font-size:26px">💡 只做我一个人的学院偶像，好吗？  —— 《LoveLive!虹之咲学院偶像同好会》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1787449757)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1787449757)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1787536015)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1787536015)
 
 </div>
 <!-- STATS_END -->
