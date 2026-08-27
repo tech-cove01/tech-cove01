@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 我会和命运战斗，并且战胜给你看！  —— 《假面骑士·剑》</p>
+<p style="font-size:26px">💡 如果你是在我阴郁时爱上我，那我无话可说。  —— 《网易云音乐》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1787708815)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1787708815)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1787820680)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1787820680)
 
 </div>
 <!-- STATS_END -->
