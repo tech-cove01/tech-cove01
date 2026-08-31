@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 是正在失去主语的句子。  —— 《哔哩哔哩》</p>
+<p style="font-size:26px">💡 请不要跟我搭话。我讨厌你！  —— 《八九寺真宵》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1788066135)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1788066135)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1788152985)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1788152985)
 
 </div>
 <!-- STATS_END -->
