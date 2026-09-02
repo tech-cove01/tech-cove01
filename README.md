@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 没有行动的新的领悟，是转瞬即逝的。  —— 《心理课》</p>
+<p style="font-size:26px">💡 Control is Power.  —— 《辛德勒的名单》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1788237954)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1788237954)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1788322045)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1788322045)
 
 </div>
 <!-- STATS_END -->
