@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 Control is Power.  —— 《辛德勒的名单》</p>
+<p style="font-size:26px">💡 自己选择的路，再荒谬也要走完！  —— 《王者荣耀》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1788322045)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1788322045)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1788408260)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1788408260)
 
 </div>
 <!-- STATS_END -->
