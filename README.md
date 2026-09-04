@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 自己选择的路，再荒谬也要走完！  —— 《王者荣耀》</p>
+<p style="font-size:26px">💡 如果说存在即合理，那不合理是不是意味着不存在?  —— 《ATCraft Network》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1788408260)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1788408260)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1788494973)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1788494973)
 
 </div>
 <!-- STATS_END -->
