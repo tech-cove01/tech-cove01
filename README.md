@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 虎狼在外，不敢不殚精竭虑；山河未定，也不敢轻贱其身。  —— 《杀破狼》</p>
+<p style="font-size:26px">💡 人在年轻时，不该遇到太惊艳的人。  —— 《互联网》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1788581141)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1788581141)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1788667998)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1788667998)
 
 </div>
 <!-- STATS_END -->
