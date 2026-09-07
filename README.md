@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 人在年轻时，不该遇到太惊艳的人。  —— 《互联网》</p>
+<p style="font-size:26px">💡 我只是个路过的假面骑士。  —— 《假面骑士decade》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1788667998)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1788667998)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1788754353)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1788754353)
 
 </div>
 <!-- STATS_END -->
