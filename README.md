@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 博文天下，遍理人间！  —— 《自己》</p>
+<p style="font-size:26px">💡 人类把最精密的保密系统，都用在了自我毁灭上。  —— 《流浪地球2》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1789013820)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1789013820)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1789100188)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1789100188)
 
 </div>
 <!-- STATS_END -->
