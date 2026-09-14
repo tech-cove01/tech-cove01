@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 其实...根本就没有什么天堂和地狱吧....  —— 《死亡笔记》</p>
+<p style="font-size:26px">💡 御剑于心，且听风吟。  —— 《英雄联盟》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1789273681)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1789273681)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1789360468)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1789360468)
 
 </div>
 <!-- STATS_END -->
