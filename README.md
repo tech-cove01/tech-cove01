@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 只要全力以赴，就无所谓失败。  —— 《音乐》</p>
+<p style="font-size:26px">💡 工人罢了工，于是成了人。  —— 《网络》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1789532997)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1789532997)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1789619753)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1789619753)
 
 </div>
 <!-- STATS_END -->
