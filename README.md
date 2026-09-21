@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 所谓宿命，其实都是最好的安排。  —— 《将夜》</p>
+<p style="font-size:26px">💡 千万生灵，唯你有权看到我脆弱。  —— 《伤害》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1789878972)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1789878972)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1789965273)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1789965273)
 
 </div>
 <!-- STATS_END -->
