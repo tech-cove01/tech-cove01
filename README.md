@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 按下功率，轰-嚓嚓嚓！  —— 《微软社区》</p>
+<p style="font-size:26px">💡 倾盆雨，惊天雷，众里寻他而去。  —— 《造梦西游3》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1790223853)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1790223853)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1790310913)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1790310913)
 
 </div>
 <!-- STATS_END -->
