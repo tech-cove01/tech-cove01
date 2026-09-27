@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 人间有味是清欢。  —— 《浣溪沙·细雨斜风作晓寒》</p>
+<p style="font-size:26px">💡 那久泊的船儿呀快些靠岸。  —— 《一生离不开的是你》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1790397553)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1790397553)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1790485166)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1790485166)
 
 </div>
 <!-- STATS_END -->
