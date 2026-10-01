@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 全世界无产者，联合起来！  —— 《共产党宣言》</p>
+<p style="font-size:26px">💡 我望月独酌。  —— 《你有没有真的爱过我》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1790745223)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1790745223)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1790832513)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1790832513)
 
 </div>
 <!-- STATS_END -->
