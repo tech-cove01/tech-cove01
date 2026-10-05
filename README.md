@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 祈焚天，昙花现。  —— 《道义》</p>
+<p style="font-size:26px">💡 你还有好多未完成的梦，你有什么理由停下脚步  —— 《网络》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1791091899)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1791091899)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1791177292)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1791177292)
 
 </div>
 <!-- STATS_END -->
