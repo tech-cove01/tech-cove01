@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 请为坠落的人类命名。  —— 《Undertale》</p>
+<p style="font-size:26px">💡 忽见陌头杨柳色，悔教夫婿觅封侯。  —— 《闺怨》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1791351258)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1791351258)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1791438151)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1791438151)
 
 </div>
 <!-- STATS_END -->
