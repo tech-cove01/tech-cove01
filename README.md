@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 你在我规划的航程上，我在你投射的视线里。  —— 《歌曲《人生苦短》歌词》</p>
+<p style="font-size:26px">💡 到底该怎么做，你才会重新喜欢我呢？  —— 《秋之回忆》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1791524832)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1791524832)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1791610218)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1791610218)
 
 </div>
 <!-- STATS_END -->
