@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 到底该怎么做，你才会重新喜欢我呢？  —— 《秋之回忆》</p>
+<p style="font-size:26px">💡 海上生明月，天涯共此时。  —— 《望月怀远》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1791610218)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1791610218)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1791696310)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1791696310)
 
 </div>
 <!-- STATS_END -->
