@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 我完全不想死，所以…要是该战斗的时刻来临，就一定要赢！  —— 《坎公骑冠剑》</p>
+<p style="font-size:26px">💡 我的一生，无怨无悔！  —— 《北斗神拳》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1792296580)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1792296580)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1792383527)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1792383527)
 
 </div>
 <!-- STATS_END -->
