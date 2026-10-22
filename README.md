@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 我曾经也许是个好人，但现在，我只是个士兵。  —— 《守望先锋》</p>
+<p style="font-size:26px">💡 温柔正确的人总是难以生存，因为这世界既不温柔，也不正确。  —— 《我的青春恋爱物语果然有问题》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1792556479)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1792556479)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1792642838)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1792642838)
 
 </div>
 <!-- STATS_END -->
