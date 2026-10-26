@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 The cake is a lie.  —— 《Portal》</p>
+<p style="font-size:26px">💡 灵气也是气，怨气也是气，怨气为何不能为人所用啊？  —— 《魔道祖师》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1792901929)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1792901929)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1792988560)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1792988560)
 
 </div>
 <!-- STATS_END -->
