@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 孤独を知って、愛を知る。  —— 《Brand New》</p>
+<p style="font-size:26px">💡 漩涡无法击碎的磐岩，也终究会在时光的冲刷下磨损。  —— 《原神》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1793076098)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1793076098)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1793164514)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1793164514)
 
 </div>
 <!-- STATS_END -->
