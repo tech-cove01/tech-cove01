@@ -267,8 +267,8 @@
     <rect x="468" y="39" width="11" height="11" class="lvl-0" />
     <rect x="468" y="52" width="11" height="11" class="lvl-0" />
     <rect x="468" y="65" width="11" height="11" class="lvl-1" />
-    <rect x="468" y="78" width="11" height="11" class="lvl-4" />
-    <rect x="481" y="0" width="11" height="11" class="lvl-2" />
+    <rect x="468" y="78" width="11" height="11" class="lvl-2" />
+    <rect x="481" y="0" width="11" height="11" class="lvl-1" />
     <rect x="481" y="13" width="11" height="11" class="lvl-1" />
     <rect x="481" y="26" width="11" height="11" class="lvl-1" />
     <rect x="481" y="39" width="11" height="11" class="lvl-0" />
@@ -282,8 +282,8 @@
     <rect x="494" y="52" width="11" height="11" class="lvl-0" />
     <rect x="494" y="65" width="11" height="11" class="lvl-1" />
     <rect x="494" y="78" width="11" height="11" class="lvl-1" />
-    <rect x="507" y="0" width="11" height="11" class="lvl-2" />
-    <rect x="507" y="13" width="11" height="11" class="lvl-2" />
+    <rect x="507" y="0" width="11" height="11" class="lvl-1" />
+    <rect x="507" y="13" width="11" height="11" class="lvl-1" />
     <rect x="507" y="26" width="11" height="11" class="lvl-1" />
     <rect x="507" y="39" width="11" height="11" class="lvl-1" />
     <rect x="507" y="52" width="11" height="11" class="lvl-1" />
@@ -296,17 +296,17 @@
     <rect x="520" y="52" width="11" height="11" class="lvl-1" />
     <rect x="520" y="65" width="11" height="11" class="lvl-0" />
     <rect x="520" y="78" width="11" height="11" class="lvl-1" />
-    <rect x="533" y="0" width="11" height="11" class="lvl-2" />
+    <rect x="533" y="0" width="11" height="11" class="lvl-1" />
     <rect x="533" y="13" width="11" height="11" class="lvl-0" />
     <rect x="533" y="26" width="11" height="11" class="lvl-1" />
     <rect x="533" y="39" width="11" height="11" class="lvl-1" />
     <rect x="533" y="52" width="11" height="11" class="lvl-1" />
-    <rect x="533" y="65" width="11" height="11" class="lvl-2" />
+    <rect x="533" y="65" width="11" height="11" class="lvl-1" />
     <rect x="533" y="78" width="11" height="11" class="lvl-0" />
     <rect x="546" y="0" width="11" height="11" class="lvl-1" />
     <rect x="546" y="13" width="11" height="11" class="lvl-1" />
     <rect x="546" y="26" width="11" height="11" class="lvl-1" />
-    <rect x="546" y="39" width="11" height="11" class="lvl-2" />
+    <rect x="546" y="39" width="11" height="11" class="lvl-1" />
     <rect x="546" y="52" width="11" height="11" class="lvl-1" />
     <rect x="546" y="65" width="11" height="11" class="lvl-0" />
     <rect x="546" y="78" width="11" height="11" class="lvl-0" />
@@ -315,7 +315,7 @@
     <rect x="559" y="26" width="11" height="11" class="lvl-0" />
     <rect x="559" y="39" width="11" height="11" class="lvl-1" />
     <rect x="559" y="52" width="11" height="11" class="lvl-1" />
-    <rect x="559" y="65" width="11" height="11" class="lvl-3" />
+    <rect x="559" y="65" width="11" height="11" class="lvl-1" />
     <rect x="559" y="78" width="11" height="11" class="lvl-1" />
     <rect x="572" y="0" width="11" height="11" class="lvl-0" />
     <rect x="572" y="13" width="11" height="11" class="lvl-0" />
@@ -333,7 +333,7 @@
     <rect x="585" y="78" width="11" height="11" class="lvl-1" />
     <rect x="598" y="0" width="11" height="11" class="lvl-1" />
     <rect x="598" y="13" width="11" height="11" class="lvl-1" />
-    <rect x="598" y="26" width="11" height="11" class="lvl-2" />
+    <rect x="598" y="26" width="11" height="11" class="lvl-1" />
     <rect x="598" y="39" width="11" height="11" class="lvl-1" />
     <rect x="598" y="52" width="11" height="11" class="lvl-1" />
     <rect x="598" y="65" width="11" height="11" class="lvl-0" />
@@ -355,13 +355,13 @@
     <rect x="637" y="0" width="11" height="11" class="lvl-0" />
     <rect x="637" y="13" width="11" height="11" class="lvl-0" />
     <rect x="637" y="26" width="11" height="11" class="lvl-1" />
-    <rect x="637" y="39" width="11" height="11" class="lvl-2" />
-    <rect x="637" y="52" width="11" height="11" class="lvl-2" />
+    <rect x="637" y="39" width="11" height="11" class="lvl-1" />
+    <rect x="637" y="52" width="11" height="11" class="lvl-1" />
     <rect x="637" y="65" width="11" height="11" class="lvl-1" />
-    <rect x="637" y="78" width="11" height="11" class="lvl-2" />
+    <rect x="637" y="78" width="11" height="11" class="lvl-1" />
     <rect x="650" y="0" width="11" height="11" class="lvl-1" />
     <rect x="650" y="13" width="11" height="11" class="lvl-1" />
-    <rect x="650" y="26" width="11" height="11" class="lvl-4" />
+    <rect x="650" y="26" width="11" height="11" class="lvl-1" />
     <rect x="650" y="39" width="11" height="11" class="lvl-1" />
     <rect x="650" y="52" width="11" height="11" class="lvl-1" />
     <rect x="650" y="65" width="11" height="11" class="lvl-1" />
@@ -372,12 +372,13 @@
     <rect x="663" y="39" width="11" height="11" class="lvl-1" />
     <rect x="663" y="52" width="11" height="11" class="lvl-0" />
     <rect x="663" y="65" width="11" height="11" class="lvl-0" />
-    <rect x="663" y="78" width="11" height="11" class="lvl-4" />
+    <rect x="663" y="78" width="11" height="11" class="lvl-1" />
     <rect x="676" y="0" width="11" height="11" class="lvl-0" />
     <rect x="676" y="13" width="11" height="11" class="lvl-4" />
-    <rect x="676" y="26" width="11" height="11" class="lvl-4" />
+    <rect x="676" y="26" width="11" height="11" class="lvl-2" />
     <rect x="676" y="39" width="11" height="11" class="lvl-4" />
-    <rect x="676" y="52" width="11" height="11" class="lvl-4" />
-    <rect x="676" y="65" width="11" height="11" class="lvl-3" />
+    <rect x="676" y="52" width="11" height="11" class="lvl-1" />
+    <rect x="676" y="65" width="11" height="11" class="lvl-4" />
+    <rect x="676" y="78" width="11" height="11" class="lvl-1" />
   </g>
 </svg>
