@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 应该可以了吧，我已经很努力了，应该可以抵达终点了……  —— 《AIR》</p>
+<p style="font-size:26px">💡 心无旁骛，举世无双。  —— 《EdgeCat》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1794116526)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1794116526)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1794203515)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1794203515)
 
 </div>
 <!-- STATS_END -->
