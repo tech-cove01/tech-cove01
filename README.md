@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 只有坦然接受命运的不公，才能安然享受生命的平等。  —— 《站在两个世界的边缘》</p>
+<p style="font-size:26px">💡 人生得意须尽欢，莫使金樽空对月。  —— 《将进酒》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1794376086)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1794376086)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1794466413)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1794466413)
 
 </div>
 <!-- STATS_END -->
