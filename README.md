@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 我思故我在。  —— 《谈谈方法》</p>
+<p style="font-size:26px">💡 这种感觉像断了线的风筝，悬在风里。  —— 《飞向别人的床》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1794722385)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1794722385)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1794808746)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1794808746)
 
 </div>
 <!-- STATS_END -->
