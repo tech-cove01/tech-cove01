@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 巧合是上帝默默操控世界的方式。  —— 《佚名》</p>
+<p style="font-size:26px">💡 下一次重逢，将是何年何月？天空必将见证。  —— 《SOLA》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1795071593)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1795071593)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1795157552)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1795157552)
 
 </div>
 <!-- STATS_END -->
