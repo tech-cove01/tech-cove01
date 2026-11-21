@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 下一次重逢，将是何年何月？天空必将见证。  —— 《SOLA》</p>
+<p style="font-size:26px">💡 地球上的任何一点离太阳都同样地遥远。  —— 《伯顿》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1795157552)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1795157552)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1795243654)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1795243654)
 
 </div>
 <!-- STATS_END -->
