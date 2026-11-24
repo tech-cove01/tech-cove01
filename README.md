@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 你怕不怕，这辈子就是上辈子所说的下辈子？  —— 《抖音》</p>
+<p style="font-size:26px">💡 大家别太把考试当回事，因为还有很多机会可以把人生搞砸。  —— 《bilibili》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1795417783)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1795417783)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1795512811)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1795512811)
 
 </div>
 <!-- STATS_END -->
