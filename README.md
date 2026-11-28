@@ -20,7 +20,7 @@
 <!-- QUOTE_START -->
 
 <div align="center">
-<p style="font-size:26px">💡 武侯祠堂常邻近，一体君臣祭祀同。  —— 《咏怀古迹五首·其四》</p>
+<p style="font-size:26px">💡 李思是和平的象征，800元可买到和平。  —— 《bilibili》</p>
 </div>
 
 <!-- QUOTE_END -->
@@ -57,8 +57,8 @@
 <div align="center">
 
 ### 📈 活跃图
-![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1795766165)
-![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1795766165)
+![](https://github-readme-activity-graph.vercel.app/graph?username=tech-cove01&theme=react-dark&bg_color=0d1117&hide_border=true&t=1795850745)
+![](https://streak-stats.demolab.com/?user=tech-cove01&theme=ocean_dark&t=1795850745)
 
 </div>
 <!-- STATS_END -->
